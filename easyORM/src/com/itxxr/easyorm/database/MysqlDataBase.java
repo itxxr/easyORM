@@ -1,4 +1,4 @@
-package easyorm.database;
+package com.itxxr.easyorm.database;
 
 public class MysqlDataBase {
 
