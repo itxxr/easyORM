@@ -5,6 +5,8 @@
  */
 package test;
 
+import easyorm.dao.generator.MysqlDaoGenerator;
+
 /**
  *
  * @author Administrator
@@ -16,6 +18,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MysqlDaoGenerator gen = new MysqlDaoGenerator();
+        gen
     }
     
 }
