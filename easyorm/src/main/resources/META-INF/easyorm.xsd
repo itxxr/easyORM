@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.itxxr.com/easyorm" xmlns:tns="http://www.itxxr.com/easyorm" elementFormDefault="qualified">
+	<complexType name="FieldConfig">
+		<attribute name="databaseFieldName" type="string"/>
+		<attribute name="entityFieldName" type="string"/>
+		<attribute name="entityFieldType" type="string"/>
+	</complexType>
+	<complexType name="EntityConfig">
+		<sequence>
+			<element name="databaseTableName" type="string"></element>
+			<element name="EntityClassName" type="string"></element>
+			<element name="field" type="tns:FieldConfig" ></element>
+		</sequence>
+	</complexType>
+</schema>
