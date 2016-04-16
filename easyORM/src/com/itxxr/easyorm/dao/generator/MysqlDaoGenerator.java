@@ -1,5 +1,5 @@
 package com.itxxr.easyorm.dao.generator;
 
-public class MysqlDaoGenerator {
+public class MysqlDaoGenerator extends DaoGenerator{
 
 }
